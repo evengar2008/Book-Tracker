@@ -1,0 +1,32 @@
+.view_book_wrapper {margin-top: 10px;}
+.view_book_wrapper_left, .view_book_wrapper_right {display: inline-block; width: 40%;   margin-left: 20px; margin-right: 20px; 
+	vertical-align: top;}
+
+.book_meta_label {font-weight: bold;}
+.view_book_wrapper input {max-width: 75%;     padding: 8px;
+    line-height: 1em;}
+
+.paginate-links {display: inline-block; list-style: none;}    
+
+.compat-table th {    background: #c8c8d4; }
+.compat-table  tbody {    background: #ededfb;}
+.compat-table th.headerSortDown, .compat-table th.headerSortUp {background: #9a9ac5;}
+
+.compat-table th.headerSortDown:after {
+   font-family: FontAwesome;
+   content: "\f063";
+}
+
+.compat-table th.headerSortUp:after {
+   font-family: FontAwesome;
+   content: "\f062";
+}
+
+.validation_error {color:red;}
+.form_notification {color:green;}
+
+.tracking tr:first-child {border-bottom: 0px !important;}
+
+.book_meta_label {vertical-align: top;}
+
+.view_book_wrapper_right #comments {max-width: 100%; width: 100%; display: block; padding-top: 0px !important;}
